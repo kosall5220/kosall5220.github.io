@@ -102,3 +102,19 @@ a {
     background-color: rgba(0, 0, 0, 0.6) !important;
     color: #f8bbff !important;
 }
+
+ #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: #007bff;
+    color: #FFF;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
